@@ -1,0 +1,328 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "homepage-functionality;valid-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Valid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2418811000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4387967300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters Username \"tomsmith\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43063699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters Password \"SuperSecretPassword!\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12780500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user clicks the Login button",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 544204400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1897699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65558499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;invalid-login",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 458911799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3870675400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters Username \"invalidUser\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36263599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters Password \"wrongPassword\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7923000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the Login button",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 530408400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "an error message \"Your username is invalid!\" should be displayed",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39943699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78507799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;add-2-numbers",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Add 2 numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user adds 5 and 3",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the result should be 8",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;add-2-numbers",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Add 2 numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user adds 10 and 15",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the result should be 25",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "homepage-functionality;add-2-numbers",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Add 2 numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user adds -1 and 1",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the result should be 0",
+            "match": {
+              "location": "file:\\C:\\Users\\kasuvarn\\OneDrive%20-%20Capgemini\\Desktop\\coding\\cucumber\\tests\\steps\\homepage.step.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "homepage-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Homepage Functionality",
+    "tags": [],
+    "uri": "tests\\features\\homepage.feature"
+  }
+]
